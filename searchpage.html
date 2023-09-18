@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search a page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid" style="background-color: black;">
+          <img src="./image/logo.jpg" alt="" class="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle=
+          
+          "collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+              <li class="nav-item">
+                <h1 style="color: white;">Book Manager</h1>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <h1 style="text-align: center; text-decoration: underline;" class="mb-5 mt-2">Search Books</h1>
+    <form class="d-flex container-fluid w-25" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchAbook1">
+        <button class="btn btn-outline-success " type="button" onclick="search()">Search</button>
+    </form>
+    <div id="result" class="container-fluid border bg-light w-50">
+
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
